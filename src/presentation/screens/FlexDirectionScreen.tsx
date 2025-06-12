@@ -14,10 +14,10 @@ export const FlexDirectionScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: 'row',
+    backgroundColor: '#d1d1d1',
     justifyContent: 'space-between',
-    alignItems: 'center',
-    backgroundColor: '#d1d1d1'
+    alignItems: 'stretch',
+    flexDirection: 'row',
   },
   box: {
     width: 100,
@@ -25,13 +25,13 @@ const styles = StyleSheet.create({
   },
   box1: {
     backgroundColor: '#5856D6',
-    top: -100,
   },
   box2: {
     backgroundColor: '#4240a2',
+    alignSelf: 'flex-end',
   },
   box3: {
     backgroundColor: '#2e2d71',
-    top: 100
+    alignSelf: 'center',
   },
 });
